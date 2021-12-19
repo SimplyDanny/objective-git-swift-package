@@ -3,20 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "ObjectiveGit-SwiftPackage",
+    name: "ObjectiveGit",
     platforms: [
-        .iOS("12.0")
+        .iOS(.v12)
     ],
     products: [
         .library(
-            name: "ObjectiveGit-SwiftPackage",
-            targets: ["ObjectiveGit-SwiftPackage"]),
+            name: "ObjectiveGit",
+            targets: ["ObjectiveGit"]),
     ],
     targets: [
-        .target(
-            name: "ObjectiveGit-SwiftPackage",
-            dependencies: ["ObjectiveGit"]
-        ),
         .binaryTarget(
             name: "ObjectiveGit",
             url: "https://github.com/SimplyDanny/objective-git/releases/download/0.16-xcframework.1/ObjectiveGit.xcframework.zip",
