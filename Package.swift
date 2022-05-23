@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: libraryName,
-            url: "https://github.com/mssun/objective-git/releases/download/0.17-passforios/ObjectiveGit.xcframework.zip",
-            checksum: "236708cd687a183d903ec02b28b597c5f2730274284e06f9b0e11769505e5267")
+            url: "https://github.com/mssun/objective-git/releases/download/0.18-passforios/ObjectiveGit.xcframework.zip",
+            checksum: "7a32593b696d799adccfbc3faa956ef95421a3ddd67edd2c82506d1b7dafc748")
     ]
 )
